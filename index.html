@@ -83,6 +83,16 @@
         .smooth-scroll {
             scroll-behavior: smooth;
         }
+                .pan-card-container {
+            position: relative;
+        }
+        .pan-details {
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+        .pan-card-container:hover .pan-details {
+            opacity: 1;
+        }
     </style>
 </head>
 <body class="bg-smus-light text-slate-800 font-sans smooth-scroll">
@@ -175,6 +185,94 @@
         <!-- Impact Stats -->
         <section>
             <div class="mb-8 text-center">
+
+                        <!-- Our Projects Section -->
+        <section>
+            <div class="mb-8 text-center animate-slide-up">
+                <h2 class="text-3xl font-bold text-smus-blue mb-2">हमारे प्रोजेक्ट्स और उपलब्धियाँ</h2>
+                <p class="text-gray-600 max-w-3xl mx-auto">Annual Reports के आधार पर पूरे किये गए मुख्य कार्य</p>
+            </div>
+            
+            <div class="space-y-8">
+                <!-- 2020-21 Projects -->
+                <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8 shadow-md hover-lift">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="bg-smus-blue text-white px-4 py-2 rounded-lg font-bold text-lg">2020-21</div>
+                        <h3 class="text-2xl font-bold text-smus-blue">COVID-19 महामारी राहत कार्य</h3>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-white p-4 rounded-lg shadow-sm">
+                            <div class="font-semibold text-gray-800 mb-2">🛡️ राशन वितरण</div>
+                            <p class="text-sm text-gray-600">100+ पैकेट राशन (चावल, दाल, आलू, मसाला) का वितरण</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-sm">
+                            <div class="font-semibold text-gray-800 mb-2">😷 मास्क वितरण</div>
+                            <p class="text-sm text-gray-600">1000+ मास्क निःशुल्क वितरण - जागरूकता अभियान</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-sm">
+                            <div class="font-semibold text-gray-800 mb-2">🏕️ शरणार्थी शिविर सहायता</div>
+                            <p class="text-sm text-gray-600">50 अप्रवासी परिवारों को दैनिक जरूरत की वस्तुएं</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-sm">
+                            <div class="font-semibold text-gray-800 mb-2">🌳 वृक्षारोपण कार्यक्रम</div>
+                            <p class="text-sm text-gray-600">200 फलदार और फर्नीचर वृक्ष रोपण</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 2021-22 Projects -->
+                <div class="bg-gradient-to-r from-pink-50 to-orange-50 rounded-2xl p-8 shadow-md hover-lift">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="bg-smus-pink text-white px-4 py-2 rounded-lg font-bold text-lg">2021-22</div>
+                        <h3 class="text-2xl font-bold text-smus-pink">Post-COVID केयर व क्षमता विकास</h3>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-white p-4 rounded-lg shadow-sm">
+                            <div class="font-semibold text-gray-800 mb-2">🏭 Post-COVID केयर सेंटर</div>
+                            <p class="text-sm text-gray-600">मझरिया में पोस्ट-कोविड केयर सेंटर का संचालन</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-sm">
+                            <div class="font-semibold text-gray-800 mb-2">🧘 योग शिविर</div>
+                            <p class="text-sm text-gray-600">विश्व योग दिवस पर स्वास्थ्य लाभ हेतु योग शिविर का आयोजन</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-sm">
+                            <div class="font-semibold text-gray-800 mb-2">👩‍⚕️ महिला स्वास्थ्य शिविर</div>
+                            <p class="text-sm text-gray-600">बाल्मिकीनगर में महिलाओं के लिए निःशुल्क चिकित्सा शिविर</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-sm">
+                            <div class="font-semibold text-gray-800 mb-2">🧥 कंबल वितरण</div>
+                            <p class="text-sm text-gray-600">बगहा में दलित महिलाओं के बीच कंबल वितरण</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 2022-23 Projects -->
+                <div class="bg-gradient-to-r from-orange-50 to-red-50 rounded-2xl p-8 shadow-md hover-lift">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="bg-smus-orange text-white px-4 py-2 rounded-lg font-bold text-lg">2022-23</div>
+                        <h3 class="text-2xl font-bold text-smus-orange">उन्नत चिकित्सा व शिक्षा</h3>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-white p-4 rounded-lg shadow-sm">
+                            <div class="font-semibold text-gray-800 mb-2">⚕️ AIIMS/Max डॉक्टर कैंप</div>
+                            <p class="text-sm text-gray-600">200+ मरीजों को उच्च स्तरीय चिकित्सा परामर्श</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-sm">
+                            <div class="font-semibold text-gray-800 mb-2">👵 वृद्ध स्वास्थ्य जांच</div>
+                            <p class="text-sm text-gray-600">40 वृद्धों का निःशुल्क स्वास्थ्य परीक्षण व दवाई</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-sm">
+                            <div class="font-semibold text-gray-800 mb-2">🧥 शीतकालीन कंबल वितरण</div>
+                            <p class="text-sm text-gray-600">50 जरूरतमंदों को कंबल - पुरंदरपुर गांव</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow-sm">
+                            <div class="font-semibold text-gray-800 mb-2">🎨 सिलाई प्रशिक्षण केंद्र</div>
+                            <p class="text-sm text-gray-600">निःशुल्क सिलाई प्रशिक्षण - महिला स्वावलंबन</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
                 <h2 class="text-3xl font-bold text-smus-blue mb-2">Our Impact by the Numbers</h2>
                 <p class="text-gray-600 max-w-3xl mx-auto">Despite global challenges, SMUS has intensified efforts in healthcare and disaster relief.</p>
             </div>
